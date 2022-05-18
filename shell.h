@@ -1,6 +1,5 @@
-#ifndef _SHELL_H
-#define _SHELL_H
-#define _GNU_SOURCE
+#ifndef MAIN_H
+#define MAIN_H
 
 #include <stdio.h>
 #include <stdlib.h>
