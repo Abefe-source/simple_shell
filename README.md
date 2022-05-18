@@ -19,8 +19,10 @@ After compilation, the resulting program can run stand-alone, either in interact
 
 Our shell has the following built-in commands:
 
-| Command             | Definition                                                                                |
+| Command             | 
+Definition                                                                                |
 | ------------------- | ----------------------------------------------------------------------------------------- |
+| env                 | indicates the environment variable.                
 
 
 ### Included Files
