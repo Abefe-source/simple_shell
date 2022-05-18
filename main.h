@@ -9,3 +9,6 @@
 #include <sys/stat.h>
 #include <limits.h>
 #include <string.h>
+
+/*env.c*/
+char *_getenv(const char *name, char **env)
