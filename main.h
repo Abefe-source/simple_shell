@@ -12,3 +12,4 @@
 
 /*env.c*/
 char *_getenv(const char *name, char **env)
+char **_path(int argc, char **argv, char **env)
