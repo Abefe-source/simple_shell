@@ -12,4 +12,7 @@
 
 /*env.c*/
 char *_getenv(const char *name, char **env)
+/*path.c*/
 char **_path(int argc, char **argv, char **env)
+/*built_in.c*/
+int builtin(char **env, char **argv, char *line, int extstat)
