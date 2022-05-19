@@ -15,20 +15,6 @@ All files were compiled on Ubuntu 20.04 LTS using GCC with the following flags: 
 
 After compilation, the resulting program can run stand-alone, either in interactive or non-interactive mode.
 
-#### Included Built-Ins
-
-Our shell has the following built-in commands:
-
-| Command             | 
-Definition                                                                                |
-| ------------------- | ----------------------------------------------------------------------------------------- |
-| env                 | indicates the environment variable.                
-
-
-### Included Files
-
-- main.c - functions for calling the shell and initializing the shell struct
-
 ### Credits
 
 All codes were written by Adeola Oladega and Joy Odeyemi.
