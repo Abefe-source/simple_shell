@@ -18,7 +18,7 @@ void free_shell(char **argv, char *line);
 
 /*stat_exec.c*/
 int stat_exec(char **argv, char *line, size_t i, char **env);
-int _strlen(char *)
+int _strlen(char *);
 
 /*path.c*/
 char **_path(int argc, char **argv, char **env);
