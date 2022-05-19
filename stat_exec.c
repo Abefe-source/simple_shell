@@ -26,7 +26,7 @@ int stat_exec(char **argv, char *line, size_t i, char **env)
 		write(STDERR_FILENO, ": not found\n", 12);
 	}
 	else
-	{		//executes the command
+	{		/*executes the command*/
 		if (execve(argv[0], argv, NULL) == -1 && isatty(0))
 		{
 			write(STDERR_FILENO, envi, _strlen(envi) + 1);
