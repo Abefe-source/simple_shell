@@ -16,3 +16,5 @@ char *_getenv(const char *name, char **env)
 char **_path(int argc, char **argv, char **env)
 /*built_in.c*/
 int builtin(char **env, char **argv, char *line, int extstat)
+/*stat_exec.c*/
+int stat_exec(char **argv, char *line, size_t i, char **env)
