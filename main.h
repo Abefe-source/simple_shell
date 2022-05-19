@@ -11,10 +11,14 @@
 #include <string.h>
 
 /*env.c*/
-char *_getenv(const char *name, char **env)
-/*path.c*/
-char **_path(int argc, char **argv, char **env)
-/*built_in.c*/
-int builtin(char **env, char **argv, char *line, int extstat)
+char *_getenv(const char *name, char **env);
+/*free_shell*/
+void free_shell(char **argv, char *line);
 /*stat_exec.c*/
-int stat_exec(char **argv, char *line, size_t i, char **env)
+int stat_exec(char **argv, char *line, size_t i, char **env);
+/*path.c*/
+char **_path(int argc, char **argv, char **env);
+/*built_in.c*/
+int builtin(char **env, char **argv, char *line, int extstat);
+
+#endif

@@ -8,12 +8,11 @@
  *@extstat: status for empty exit
  *Returns 1 if builtin and 0 if failure
  */
-
 int builtin(char **env, char **argv, char *line, int extstat)
 {
 	int i;
 
-	if (_strcmp("env", argv[0]) == 0)      //envronment
+	if (_strcmp("env", argv[0]) == 0)/*envronment*/
 	{
 		if (argv[1] == NULL)
 		{
@@ -33,7 +32,7 @@ int builtin(char **env, char **argv, char *line, int extstat)
 		}
 		return (1);
 	}
-	else if (_strcmp("exit", argv[0]) == 0) //exit
+	else if (_strcmp("exit", argv[0]) == 0)
 	{
 		if (argv[1] == NULL)
 		{

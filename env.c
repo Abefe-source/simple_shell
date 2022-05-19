@@ -8,7 +8,7 @@
  */
 char *_getenv(const char *name, char **env)
 {
-	int i, len; //Variables
+	int i, len;
 
 	for (len = 0; name[len] != '\0'; len++)
 		;
